@@ -1,0 +1,51 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+	box-sizing: border-box;
+}
+h1 {
+	font-weight: inherit;
+	font-style: inherit;
+	font-size: 100%;
+	font-family: inherit;
+	vertical-align: baseline;
+}
+body {
+	margin: 0px 0px 0px 0px;
+}
+body.dark{
+	background-color: rgb(96, 125, 139);
+	z-index: 0;
+	width: 100%;
+	height: auto;
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+body.light{
+	background-color: #E0E0E0;
+	z-index: 0;
+	width: 100%;
+	height: auto;
+	font-family: "HelveticaNeue", Helvetica, Arial, sans-serif;
+}
+#content-wrapper{
+	position: relative;
+	margin-left: 2%;
+	margin-top: 15px;
+	margin-bottom: 35px;
+	font-family: "HelveticaNeue-Light", Helvetica, Arial, sans-serif;
+}
+footer {
+	position: relative;
+}
+footer > p {
+	position: relative;
+	float:left;
+	z-index: 10;
+    bottom: 0px;
+	margin: 0px 0px 0px 0px;
+	background-color: cadetblue;
+	padding: 5px;
+	width: 100%;
+	text-align: center;
+}
+
